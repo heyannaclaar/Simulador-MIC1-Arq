@@ -65,7 +65,7 @@ public class JanelaPrincipal extends JFrame {
     private PainelCache painelCacheD = new PainelCache();
 
     // controles
-    private JSpinner spnPausa = new JSpinner(new SpinnerNumberModel(100, 0, 2000, 10));
+    private JSpinner spnPausa = new JSpinner(new SpinnerNumberModel(100, 0, 5000, 10));
     private JTextField txtPausarPc = new JTextField(5);
     private JLabel lblCiclos = new JLabel("Ciclos: 0");
     private JLabel lblInstrucoes = new JLabel("Instruções: 0");
